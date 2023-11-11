@@ -1,3 +1,8 @@
+## Como rodar
+> javac Compilador.java
+
+> java Compilador file
+
 ### Ajuste (1) 
 A implementação atual do compilador didático aceita apenas números com um único dígito. Modificar o compilador para que ele aceite também números naturais com mais de um dígito
 
