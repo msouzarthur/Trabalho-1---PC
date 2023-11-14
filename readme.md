@@ -6,7 +6,7 @@
 ### Ajuste (1) ✔
 A implementação atual do compilador didático aceita apenas números com um único dígito. Modificar o compilador para que ele aceite também números naturais com mais de um dígito
 
-### Ajuste (2)
+### Ajuste (2) ✔
 A implementação atual do compilador didático aceita apenas as operações de soma e multiplicação. Modifique o compilador para que aceite também subtração e divisão. Para essas operações, gerar as instruções SUB e DIV.
 
 ### Ajuste (3)

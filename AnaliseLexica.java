@@ -3,6 +3,8 @@ import java.io.*;
 enum TokenType {
     NUM,
     SOMA,
+    SUB,
+    DIV,
     MULT,
     APar,
     FPar,
@@ -56,6 +58,10 @@ class AnaliseLexica {
                         return new Token(String.valueOf(currchar), TokenType.SOMA);
                     case '*':
                         return new Token(String.valueOf(currchar), TokenType.MULT);
+                    case '-':
+                        return new Token(String.valueOf(currchar), TokenType.SUB);
+                    case '/':
+                        return new Token(String.valueOf(currchar), TokenType.DIV);
                     default:
                         throw new Exception("Caractere inválido: " + ((int) currchar));
                 }
