@@ -16,7 +16,7 @@ O compilador didático possui um back-end que gera código para uma máquina de 
 > String codigo = backend.geraCodigo(arv);
 
 O back-end recebe como entrada a árvore sintática e percorre essa árvore gerando código para uma máquina de pilha. Substituir o back-end desse compilador por um back-end interpretador, ou seja, ao invés de gerar uma String com código para ser executado na máquina de pilha, o back-end já devolve o resultado da computação da expressão de entrada.
-### Ajuste (4)
+### Ajuste (4) ✔
 Implementar em Java, uma máquina de pilha que execute as instruções geradas pelo compilador didático. A máquina de pilha deve receber como entrada um arquivo texto com as instruções e devolver como saída o resultado final da execução dessas instruções.
 
 A classe principal deve se chamar MaquinaPilha. Ex:

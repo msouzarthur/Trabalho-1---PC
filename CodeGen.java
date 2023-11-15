@@ -1,6 +1,5 @@
 class CodeGen{
 
-
 	String geraCodigo (ArvoreSintatica arv) {
 		return (String.valueOf(geraCodigo2(arv)));
 	}
