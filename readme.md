@@ -9,7 +9,7 @@ A implementação atual do compilador didático aceita apenas números com um ú
 ### Ajuste (2) ✔
 A implementação atual do compilador didático aceita apenas as operações de soma e multiplicação. Modifique o compilador para que aceite também subtração e divisão. Para essas operações, gerar as instruções SUB e DIV.
 
-### Ajuste (3)
+### Ajuste (3) ✔
 O compilador didático possui um back-end que gera código para uma máquina de pilha hipotética:
 > CodeGen backend = new CodeGen();
 
