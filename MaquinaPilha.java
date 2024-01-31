@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Stack;
+class MaquinaPilha {
     public static void main(String[] args) throws Exception {
         BufferedReader arquivo;
         arquivo = new BufferedReader(new FileReader(args[0]));
