@@ -21,5 +21,3 @@ Implementar em Java, uma máquina de pilha que execute as instruções geradas p
 
 A classe principal deve se chamar MaquinaPilha. Ex:
 > ~$ java MaquinaPilha arquivoDeEntrada
-
-OBS: Os exercícios 1, 2 e 3 são incrementais, ou seja, o exercício 2 deve ser implementado em cima das modificações feitas no exercício 1, e o exercício 3 deve ser implementado em cima da versão gerada no exercício 2
